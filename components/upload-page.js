@@ -4,8 +4,8 @@ import { MUX_HOME_PAGE_URL } from '../constants'
 export default function UploadPage({ children }) {
   return (
     <Layout
-      title="Welcome to Mux + Next.js"
-      description="Get started by uploading a video"
+      title="Mux upload API + Next.js"
+      description="Upload a video to Mike's Mux account"
     >
       <div className="wrapper">
         <div className="about-mux">
@@ -39,7 +39,7 @@ export default function UploadPage({ children }) {
           <p>
             To learn more,{' '}
             <a
-              href="https://github.com/vercel/next.js/tree/canary/examples/with-mux-video"
+              href="https://github.com/mconnor/next-mux-video-app"
               target="_blank"
               rel="noopener noreferrer"
             >
